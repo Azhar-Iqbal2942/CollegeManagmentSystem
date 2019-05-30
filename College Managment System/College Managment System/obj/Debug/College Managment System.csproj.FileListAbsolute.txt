@@ -1,0 +1,21 @@
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.Forms.dashBoardForm.resources
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.Properties.Resources.resources
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.UserControls.DashBoardUC.resources
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College Managment System.csproj.GenerateResource.cache
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College Managment System.csproj.CoreCompileInputs.cache
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\bin\Debug\College Managment System.exe.config
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\bin\Debug\College Managment System.exe
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\bin\Debug\College Managment System.pdb
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College Managment System.exe
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College Managment System.pdb
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College Managment System.csproj.CopyComplete
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.Forms.loginForm.resources
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.Forms.SignUpForm.resources
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.UserControls.AdmissionFormUC.resources
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.UserControls.SearchStudent.resources
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.UserControls.RemoveStudent.resources
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.UserControls.AboutUs.resources
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.UserControls.FeeForm.resources
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College Managment System.csprojAssemblyReference.cache
+C:\Users\AZHAR\Desktop\WindowFromApp\Final Project\College Managment System\College Managment System\obj\Debug\College_Managment_System.Forms.FeeDetails.resources
