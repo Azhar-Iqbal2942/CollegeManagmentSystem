@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using College_Managment_System.Forms;
 
 namespace College_Managment_System.UserControls
 {
@@ -49,6 +50,17 @@ namespace College_Managment_System.UserControls
             DataTable dt = new DataTable();
             adapter.Fill(dt);
             dgvSearchStudent.DataSource = dt;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void studentReportLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            StudentReportForm SReport = new StudentReportForm();
+            SReport.Show();
         }
     }
 }

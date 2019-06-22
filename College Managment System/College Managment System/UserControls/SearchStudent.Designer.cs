@@ -35,6 +35,7 @@
             this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dgvSearchStudent = new System.Windows.Forms.DataGridView();
+            this.studentReportLabel = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSearchStudent)).BeginInit();
             this.SuspendLayout();
@@ -59,6 +60,7 @@
             this.label1.Size = new System.Drawing.Size(81, 24);
             this.label1.TabIndex = 1;
             this.label1.Text = "Search";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // bunifuMetroTextbox1
             // 
@@ -92,11 +94,23 @@
             this.dgvSearchStudent.TabIndex = 22;
             this.dgvSearchStudent.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSearchStudent_CellContentClick);
             // 
+            // studentReportLabel
+            // 
+            this.studentReportLabel.AutoSize = true;
+            this.studentReportLabel.Location = new System.Drawing.Point(720, 146);
+            this.studentReportLabel.Name = "studentReportLabel";
+            this.studentReportLabel.Size = new System.Drawing.Size(69, 13);
+            this.studentReportLabel.TabIndex = 23;
+            this.studentReportLabel.TabStop = true;
+            this.studentReportLabel.Text = "Show Report";
+            this.studentReportLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.studentReportLabel_LinkClicked);
+            // 
             // SearchStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.studentReportLabel);
             this.Controls.Add(this.dgvSearchStudent);
             this.Controls.Add(this.bunifuMetroTextbox1);
             this.Controls.Add(this.label1);
@@ -118,5 +132,6 @@
         private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.DataGridView dgvSearchStudent;
+        private System.Windows.Forms.LinkLabel studentReportLabel;
     }
 }

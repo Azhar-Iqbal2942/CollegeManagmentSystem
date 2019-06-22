@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FeeDetails));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvFeeDetails = new System.Windows.Forms.DataGridView();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFeeDetails)).BeginInit();
@@ -73,10 +75,15 @@
             // dgvFeeDetails
             // 
             this.dgvFeeDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvFeeDetails.Location = new System.Drawing.Point(12, 138);
+            this.dgvFeeDetails.Location = new System.Drawing.Point(42, 138);
             this.dgvFeeDetails.Name = "dgvFeeDetails";
-            this.dgvFeeDetails.Size = new System.Drawing.Size(525, 289);
+            this.dgvFeeDetails.Size = new System.Drawing.Size(468, 289);
             this.dgvFeeDetails.TabIndex = 3;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 20;
+            this.bunifuElipse1.TargetControl = this;
             // 
             // FeeDetails
             // 
@@ -105,5 +112,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvFeeDetails;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }

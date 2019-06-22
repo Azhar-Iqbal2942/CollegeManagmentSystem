@@ -78,6 +78,20 @@ namespace College_Managment_System.Forms
             }
               
         }
-        
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

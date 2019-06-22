@@ -42,6 +42,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.StudentFeeReport = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -201,11 +202,23 @@
             this.linkLabel1.Text = "Full Details";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // StudentFeeReport
+            // 
+            this.StudentFeeReport.AutoSize = true;
+            this.StudentFeeReport.Location = new System.Drawing.Point(162, 473);
+            this.StudentFeeReport.Name = "StudentFeeReport";
+            this.StudentFeeReport.Size = new System.Drawing.Size(57, 13);
+            this.StudentFeeReport.TabIndex = 28;
+            this.StudentFeeReport.TabStop = true;
+            this.StudentFeeReport.Text = "FeeReport";
+            this.StudentFeeReport.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.StudentFeeReport_LinkClicked);
+            // 
             // FeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.StudentFeeReport);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.txtFee);
@@ -239,5 +252,6 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel StudentFeeReport;
     }
 }

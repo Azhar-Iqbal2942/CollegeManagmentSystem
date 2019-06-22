@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using College_Managment_System.Forms;
 
 namespace College_Managment_System.UserControls
 {
@@ -122,6 +123,12 @@ namespace College_Managment_System.UserControls
             Forms.FeeDetails feeDetails = new Forms.FeeDetails();
             feeDetails.Show();
                 
+        }
+
+        private void StudentFeeReport_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Forms.StudentFeeReport report = new StudentFeeReport();
+            report.Show();
         }
     }
 }

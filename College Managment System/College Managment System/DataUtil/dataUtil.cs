@@ -8,8 +8,11 @@ using System.Threading.Tasks;
 
 namespace College_Managment_System.DataUtil
 {
+    
     class dataUtil
     {
+
+        
         SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-NODKF4Q;Initial Catalog=CollegeManagmentSystem;Integrated Security=True");
 
 

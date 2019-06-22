@@ -22,7 +22,8 @@ namespace College_Managment_System.Forms
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
             SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-NODKF4Q;Initial Catalog=CollegeManagmentSystem;Integrated Security=True");
-            String query = "SELECT userName,password FROM tbl_registrationForm WHERE userName = '" + this.bunifuMetroTextbox1.Text.Trim() + "' and password = '" + this.bunifuMetroTextbox2.Text.Trim() + "'";
+            String query = 
+                "SELECT userName,password FROM tbl_registrationForm WHERE userName = '" + this.bunifuMetroTextbox1.Text.Trim() + "' and password = '" + this.bunifuMetroTextbox2.Text.Trim() + "'";
 
             SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
             DataTable dataTable = new DataTable();
@@ -48,13 +49,18 @@ namespace College_Managment_System.Forms
         {
             SignUpForm signUpForm = new SignUpForm();
             signUpForm.Show();
-            this.Hide();
+            
 
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
         }
     }
 }

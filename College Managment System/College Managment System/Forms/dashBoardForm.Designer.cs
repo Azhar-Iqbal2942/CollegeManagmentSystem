@@ -42,6 +42,10 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.feeForm1 = new College_Managment_System.UserControls.FeeForm();
             this.aboutUs1 = new College_Managment_System.UserControls.AboutUs();
             this.removeStudent1 = new College_Managment_System.UserControls.RemoveStudent();
@@ -50,15 +54,15 @@
             this.dashBoardUC2 = new College_Managment_System.UserControls.DashBoardUC();
             this.admissionFormUC1 = new College_Managment_System.UserControls.AdmissionFormUC();
             this.dashBoardUC1 = new College_Managment_System.UserControls.DashBoardUC();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.dragControl1 = new College_Managment_System.DragControl();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -154,6 +158,7 @@
             resources.ApplyResources(this.lblTitle, "lblTitle");
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(66)))), ((int)(((byte)(86)))));
             this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // panelContainer
             // 
@@ -167,6 +172,25 @@
             this.panelContainer.Controls.Add(this.dashBoardUC1);
             resources.ApplyResources(this.panelContainer, "panelContainer");
             this.panelContainer.Name = "panelContainer";
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 8;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pictureBox4
+            // 
+            resources.ApplyResources(this.pictureBox4, "pictureBox4");
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // feeForm1
             // 
@@ -215,31 +239,27 @@
             resources.ApplyResources(this.dashBoardUC1, "dashBoardUC1");
             this.dashBoardUC1.Name = "dashBoardUC1";
             // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 8;
-            this.bunifuElipse1.TargetControl = this;
-            // 
-            // pictureBox2
-            // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
             // dragControl1
             // 
             this.dragControl1.SelectControl = this;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pictureBox4);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.lblTitle);
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // dashBoardForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panelContainer);
-            this.Controls.Add(this.lblTitle);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "dashBoardForm";
@@ -248,8 +268,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -279,5 +301,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private UserControls.FeeForm feeForm1;
         private System.Windows.Forms.Panel panelLabel;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Panel panel2;
     }
 }

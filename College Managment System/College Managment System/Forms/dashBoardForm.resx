@@ -238,7 +238,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="panelLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 132</value>
@@ -712,7 +712,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>947, 2</value>
+    <value>742, 3</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 36</value>
@@ -730,10 +730,10 @@
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panel2</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -745,7 +745,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 13</value>
+    <value>3, 11</value>
   </data>
   <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 25</value>
@@ -763,10 +763,10 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panel2</value>
   </data>
   <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;feeForm1.Name" xml:space="preserve">
     <value>feeForm1</value>
@@ -887,6 +887,155 @@
   </data>
   <data name="&gt;&gt;panelContainer.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>68</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1010, 561</value>
+  </data>
+  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAD
+        mwAAA5sBPN8HMQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABGSURBVGhD7c6x
+        CcAwDERRDeYRsv8KGcMuoiqoE8jNe/Db4wIAAAAAft5n7Zvljb5qfLK80VeNT5Y3+qrxyfIGAAAAAHwi
+        DhYINxBDs03lAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 3</value>
+  </data>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 36</value>
+  </data>
+  <data name="pictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAC
+        hgAAAoYB204b6wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIHSURBVFhH7Zi9
+        SwMxGMbPD1DEWZzUWTddpJfATUK9xI+huPpP6CyC4OSm4CCICBVFdNFBB1cRdwXBj6HJtYuDdHDp+eb6
+        Uo/20l5rPKv4g2do8ubJ0497excrCjnnjEhGDyQjBVAJ5BuQ8smDsoKTIdyqPuUgQYgoQ1PKi+nUMG6p
+        x2N0P7ToDnQkOTn8spQPI/foq7SHW+qBIonFjw/pdA8OG+HJcXrB9xn9czisB4qKqli45AKHjKJ8MUwR
+        h/T8h9Hx58L4K1an4KkpP5PpwqEK4J1NNIzH7AXl4TFyIvhEHw4HFDJOP8ydJxYGuvey8iiL3hSmnUGc
+        CvAdp1u6ZBNf6jEfBsSJEJyO43R8viVMWW8eJwxL4gGL6oaR3B7zXHsDjLd1gk/iOhQirHfJ6SJaNQYW
+        1A/DyC0at6oSBFr1LasDLfVAcaMwL2j6NXFyXH2l1QCFyYRRgq/Tm08NoHUtUJRcGJBw7VO0rgUKEgxD
+        z1QTROtaoCip38yWan5oGw0UNgrTRlcT9BnB7TV4Z+taMXKFG1fLbJ+Jg6YDFzxuT2JJPGCR+TCu/SRn
+        6ShOx8dQmKXPMD/8ry0YmVcebXE/o8jNULst7vTqoXz/w0Txq8NUnrXVszEOG6H5Z21Od7E4aFZwmV6a
+        UiiI0g5uqSex85nmDozoATSt1wijloV+mpMry/oAepycHs/7Um8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 3</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 36</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>805, 42</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>dashBoard</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bunifuElipse1.Name" xml:space="preserve">
+    <value>bunifuElipse1</value>
+  </data>
+  <data name="&gt;&gt;bunifuElipse1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuElipse, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dragControl1.Name" xml:space="preserve">
+    <value>dragControl1</value>
+  </data>
+  <data name="&gt;&gt;dragControl1.Type" xml:space="preserve">
+    <value>College_Managment_System.DragControl, College Managment System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>dashBoardForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="feeForm1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1079,97 +1228,6 @@
   </data>
   <data name="&gt;&gt;dashBoardUC1.ZOrder" xml:space="preserve">
     <value>7</value>
-  </data>
-  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>181, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>68</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1010, 561</value>
-  </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAAoYAAAKGAdtOG+sAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAACB0lEQVRYR+2YvUsDMRjGzw9QxFmc1Fk3XaSXwE1CvcSPobj6T+gsguDkpuAgiAgVRXTRQQdXEXcF
-        wY+hybWLg3Rw6fnm+lKP9tJeazyr+INnaPLmydOPe3sXKwo554xIRg8kIwVQCeQbkPLJg7KCkyHcqj7l
-        IEGIKENTyovp1DBuqcdjdD+06A50JDk5/LKUDyP36Ku0h1vqgSKJxY8P6XQPDhvhyXF6wfcZ/XM4rAeK
-        iqpYuOQCh4yifDFMEYf0/IfR8efC+CtWp+CpKT+T6cKhCuCdTTSMx+wF5eExciL4RB8OBxQyTj/MnScW
-        Brr3svIoi94Upp1BnArwHadbumQTX+oxHwbEiRCcjuN0fL4lTFlvHicMS+IBi+qGkdwe81x7A4y3dYJP
-        4joUIqx3yekiWjUGFtQPw8gtGreqEgRa9S2rAy31QHGjMC9o+jVxclx9pdUAhcmEUYKv05tPDaB1LVCU
-        XBiQcO1TtK4FChIMQ89UE0TrWqAoqd/Mlmp+aBsNFDYK00ZXE/QZwe01eGfrWjFyhRtXy2yfiYOmAxc8
-        bk9iSTxgkfkwrv0kZ+koTsfHUJilzzA//K8tGJlXHm1xP6PIzVC7Le706qF8/8NE8avDVJ611bMxDhuh
-        +WdtTnexOGhWcJlemlIoiNIObqknsfOZ5g6M6AE0rdcIo5aFfpqTK8v6AHqcnB7P+1JvAAAAAElFTkSu
-        QmCC
-</value>
-  </data>
-  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>887, 2</value>
-  </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 36</value>
-  </data>
-  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>dashBoard</value>
-  </data>
-  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
-    <value>backgroundWorker1</value>
-  </data>
-  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bunifuElipse1.Name" xml:space="preserve">
-    <value>bunifuElipse1</value>
-  </data>
-  <data name="&gt;&gt;bunifuElipse1.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuElipse, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;dragControl1.Name" xml:space="preserve">
-    <value>dragControl1</value>
-  </data>
-  <data name="&gt;&gt;dragControl1.Type" xml:space="preserve">
-    <value>College_Managment_System.DragControl, College Managment System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>dashBoardForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="dragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>305, 17</value>

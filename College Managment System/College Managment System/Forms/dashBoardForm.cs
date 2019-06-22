@@ -105,5 +105,20 @@ namespace College_Managment_System.Forms
         {
 
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+        }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
